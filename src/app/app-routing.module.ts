@@ -5,9 +5,11 @@ import { ScientificCalComponent } from './scientific-cal/scientific-cal.componen
 import { SimpleCalComponent } from './simple-cal/simple-cal.component';
 
 const routes: Routes = [
+  {path: "", redirectTo: "simple", pathMatch: "full"},
   {path: "simple", component: SimpleCalComponent},
   {path: "scientific", component: ScientificCalComponent},
-  {path: "about", component: AboutCalComponent}
+  {path: "about", component: AboutCalComponent},
+  {path: "**", redirectTo: "simple", pathMatch: "full"}
 ];
 
 @NgModule({
