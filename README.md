@@ -1,5 +1,5 @@
 # CalculatorApp
-The app can be accessed from this [link](https://mv4manishverma.github.io/calculator-app/).
+I have just started working on it and soon it will be completed. Meanwhile, the app can be accessed from this [link](https://mv4manishverma.github.io/calculator-app/).
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
 
